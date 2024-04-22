@@ -8,7 +8,7 @@ const a = async () => {
 };
 
 const b = async () => {
-  await timeOut(1000); // Menunggu selama 1500ms (1.5 detik)
+  await timeOut(1500); // Menunggu selama 1500ms (1.5 detik)
   console.log("Ini adalah fungsi B");
   return true;
 };
